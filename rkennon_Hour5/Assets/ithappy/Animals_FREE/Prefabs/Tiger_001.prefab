@@ -962,7 +962,7 @@ CharacterController:
   m_GameObject: {fileID: 5883155896844355918}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Height: 1.44
   m_Radius: 1.13

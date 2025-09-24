@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 106556212727596109}
   - component: {fileID: 1464827842533569635}
   m_Layer: 0
-  m_Name: ML3D_Rocks_00_01
+  m_Name: CavernWalls3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

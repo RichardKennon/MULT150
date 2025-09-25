@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 9171207159704420112}
   - component: {fileID: 870216720479217562}
   - component: {fileID: 7054518919179418151}
+  - component: {fileID: -4940085999007797561}
+  - component: {fileID: -8492220075545457349}
   m_Layer: 0
   m_Name: Magnetic Crystal2
   m_TagString: Untagged
@@ -29,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 5496369607938120404}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 7.71, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -93,10 +95,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5496369607938120404}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8089657206501112243, guid: 58a5ab3dee2df4b7ca1055a0d6b8fe60, type: 3}
 --- !u!108 &7054518919179418151
@@ -161,3 +163,49 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &-4940085999007797561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5496369607938120404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec9993649524254681ec2c6746824c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMetallic: 0
+  isStatic: 1
+  magnetismWithoutUseForces: 1
+  magneticRigidbody: {fileID: 0}
+  AdvanceSettings: 0
+  turnOnMagnetism: 1
+  affectByMagnetism: 0
+  northPole: 0
+  constantMagneticForce: 0
+  magneticForce: 10
+  magneticDistance: 15
+  X_Axis: 0
+  Y_Axis: 0
+  Z_Axis: 0
+  allowTags: []
+  intermittentShutdown: 0
+  OffsetTime: 0
+  TimeOn: 0
+  TimeOff: 0
+  changePolarity: 0
+  timeToChange: 0
+--- !u!114 &-8492220075545457349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5496369607938120404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f91985dc8efdf488c4edfb24a0d113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}

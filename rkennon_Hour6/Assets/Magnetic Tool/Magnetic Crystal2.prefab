@@ -183,8 +183,8 @@ MonoBehaviour:
   turnOnMagnetism: 1
   affectByMagnetism: 0
   northPole: 0
-  constantMagneticForce: 0
-  magneticForce: 10
+  constantMagneticForce: 1
+  magneticForce: 30
   magneticDistance: 15
   X_Axis: 0
   Y_Axis: 0

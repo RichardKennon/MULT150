@@ -649,11 +649,31 @@ PrefabInstance:
     m_TransformParent: {fileID: 1584222012}
     m_Modifications:
     - target: {fileID: -5681096407196150576, guid: 409d3bbd6bd552549b7e1707d2258909, type: 3}
+      propertyPath: X_Axis
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5681096407196150576, guid: 409d3bbd6bd552549b7e1707d2258909, type: 3}
+      propertyPath: Y_Axis
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5681096407196150576, guid: 409d3bbd6bd552549b7e1707d2258909, type: 3}
+      propertyPath: Z_Axis
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5681096407196150576, guid: 409d3bbd6bd552549b7e1707d2258909, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5681096407196150576, guid: 409d3bbd6bd552549b7e1707d2258909, type: 3}
+      propertyPath: magneticForce
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -5681096407196150576, guid: 409d3bbd6bd552549b7e1707d2258909, type: 3}
       propertyPath: magneticDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5681096407196150576, guid: 409d3bbd6bd552549b7e1707d2258909, type: 3}
+      propertyPath: affectByMagnetism
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -1985131773531547349, guid: 409d3bbd6bd552549b7e1707d2258909, type: 3}
@@ -44437,8 +44457,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146192060}
-  m_LocalRotation: {x: 0.17741598, y: 0.73628724, z: 0.2114361, w: -0.61781836}
-  m_LocalPosition: {x: 167.87564, y: 23.14, z: 125.50705}
+  m_LocalRotation: {x: 0.061508168, y: 0.9071277, z: 0.14268072, w: -0.3911245}
+  m_LocalPosition: {x: 134.04926, y: 14.370468, z: 242.79082}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -91110,7 +91130,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044872396}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eec9993649524254681ec2c6746824c5, type: 3}
   m_Name: 
@@ -91120,15 +91140,15 @@ MonoBehaviour:
   magnetismWithoutUseForces: 1
   magneticRigidbody: {fileID: 2044872398}
   AdvanceSettings: 0
-  turnOnMagnetism: 0
+  turnOnMagnetism: 1
   affectByMagnetism: 1
   northPole: 0
   constantMagneticForce: 0
   magneticForce: 0
   magneticDistance: 0
-  X_Axis: 0
-  Y_Axis: 0
-  Z_Axis: 0
+  X_Axis: 1
+  Y_Axis: 1
+  Z_Axis: 1
   allowTags: []
   intermittentShutdown: 0
   OffsetTime: 0

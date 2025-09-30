@@ -2,18 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ImportantFunctions : MonoBehaviour
+public class Addition : MonoBehaviour
 {
-    public int runSpeed;
     // Start is called before the first frame update
     void Start()
     {
-        print("Start runs before an object Updates");
+        int a = 2;
+        int b = 4;
+        int c = 8;
+        int sum = a + b + c;
+        sum++;
+        Debug.Log(sum);
     }
 
     // Update is called once per frame
     void Update()
     {
-        print("This is called once a frame");
+        
     }
 }

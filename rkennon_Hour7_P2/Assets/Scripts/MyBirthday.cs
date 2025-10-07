@@ -5,16 +5,16 @@ public class MyBirthday : MonoBehaviour
 {
     void Start()
     {
-        // for(int June = 1; June <= 30; June++)
-        // {
-        //     if(June = 11)
-        //     {
-        //         Debug.Log("Its my birthday!");
-        //     }
-        //     else
-        //     {
-        //         Debug.Log(June);
-        //     }
-        // }
+         for(int June = 1; June <= 30; June++)
+         {
+             if(June == 11)
+             {
+                 Debug.Log("Its my birthday!");
+             }
+             else
+             {
+                 Debug.Log(June);
+             }
+         }
     }
 }

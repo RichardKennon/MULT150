@@ -30,5 +30,9 @@ with the Update method when the R key was pressed down.
   2. Time counter was implimented to appear as an rounded integer displayed at the top left of the screen. elapsedTime set to keep counting the passage of time while
 isGameOver remained false, stopping the timer with the game's end.
 
-  3.
+  3 & 4. The Bumper's size was increased in scale and given three additional bumper walls, giving it a more complex shape. While technically meeting two of the four
+criteria in the assignment in a half hearted way, the reason I finished with this is due to the purpose these changes were designed for that took me a fair deal of time.
+-Attached to the BumperGate 3D object of the Bumper is my solution to the player's restricted influence over the gameplay, a script called GateKeeper which allows the
+player to press the space button to disable or enable the object's collider and mesh render such that they might grab the bouncing colored balls and hold them inside the
+barriers long enough to aim at one of the corners and release it in an intended direction. This has proven decently more effective than chasing down speeding balls.
  */

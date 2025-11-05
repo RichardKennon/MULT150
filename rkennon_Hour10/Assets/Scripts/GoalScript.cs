@@ -15,4 +15,15 @@ public class GoalScript : MonoBehaviour
             Destroy(collidedWith);
         }
     }
+    void Reset()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            isSolved = true;
+        }
+    }
+    void Update()
+    {
+        Reset();
+    }
 }

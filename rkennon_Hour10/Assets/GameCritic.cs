@@ -1,4 +1,4 @@
-/*
+/*      Improving the Game
 The game is too hard. In the chaos of the balls bouncing around, gaining and losing speed, it's already hard to pinpoint the whereabouts of the goal balls
 and even harder to reach them, requiring the player to predict their bounce location and meet it at a desired angle since the player doesn't have much speed.
 
@@ -20,3 +20,15 @@ game will end less due to your own contribution and more due to the balls happen
  first bounced on the bouncer one or two bounces prior to indicate that the player had indeed caused the ball to land in the goal.
 
 */
+
+/*      Exercise
+ 1. I implimented a reset mechanic after the game is over as a click interface and enter key.
+I also managed to code a way into reaching the game over screen faster for testing purposes by adding a override to the GoalScript, forcing an isSolved = true; senario
+with the Update method when the R key was pressed down.
+-I couldn't figure out how to do it from the GameManager script, as the original code of isSolved kept overriding my efforts to influence the isGameOver bool directly.
+
+  2. Time counter was implimented to appear as an rounded integer displayed at the top left of the screen. elapsedTime set to keep counting the passage of time while
+isGameOver remained false, stopping the timer with the game's end.
+
+  3.
+ */

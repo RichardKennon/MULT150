@@ -12,4 +12,7 @@
 
  5. I created a new material called RocketFlames and attached it to the renderer, making the spheres transparent, red, and somewhat shiny.
 
+This was all done in order to not only make the particles look like a rocket's flare, but also make the particles themselves the source of the thrust!
+
+
  */

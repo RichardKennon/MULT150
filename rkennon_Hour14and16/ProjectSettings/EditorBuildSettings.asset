@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/rkennon_Hour14.unity
+    guid: 5a456819a36dce04796b384d0deb2e45
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 6df743cb5c4f81b428a2aa299bad3c46
   m_configObjects: {}

@@ -178,9 +178,9 @@ PrefabInstance:
       value: GildedLamp
       objectReference: {fileID: 0}
     - target: {fileID: 8161724185848032490, guid: c5c579bd3121e2b43a2341996dc9ff17, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 00170e6283973f9439fdea350cffa72b, type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5c579bd3121e2b43a2341996dc9ff17, type: 3}
 --- !u!1 &569111860

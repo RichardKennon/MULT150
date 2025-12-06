@@ -4,18 +4,42 @@ using UnityEngine;
 
 public class GildedLampCntlr : MonoBehaviour
 {
-    Animator FloatAnimator;
 
+    Animator LampAnim;
+    /*
+    Animator RotateAnim;
+    Animator CoreAnim;
+    */
     void Start()
     {
-        FloatAnimator = GetComponent<Animator>();
+        /*
+        GameObject parent = GameObject.Find("GildedLamp");
+        GameObject child1 = GameObject.Find("LightCore");
+        GameObject child2 = GameObject.Find("GlassCenter");
+        */
+        LampAnim = GetComponent<Animator>();
+        /*
+        RotateAnim = parent.GetComponentInChildren<Animator>(child2);
+        CoreAnim = parent.GetComponentInChildren<Animator>(child1);
+        */
     }
-
-    // Update is called once per frame
     void Update()
     {
-        bool floater = Input.GetKeyDown(KeyCode.D);
-
-        FloatAnimator.SetBool("Floater", floater);
+        if ( Input.GetKeyDown(KeyCode.D) )
+        {
+            LampAnim.SetTrigger("Floater");
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            LampAnim.SetTrigger("Rotator");
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            LampAnim.SetTrigger("Scaler");
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            LampAnim.SetTrigger("Colorer");
+        }
     }
 }

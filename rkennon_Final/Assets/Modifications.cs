@@ -18,7 +18,7 @@
 
         2 - fog
         modifications: 
-            Set the fog density to 0.11 to reduce the player's view.
+            Set the fog density to 0.06 to reduce the player's view.
             Changed its color to Hex 404040 for a greyish hue.
 
         3 - create & apply skybox and customise it (atmosphere thickness, sky tint, exposure, etc)
@@ -86,7 +86,12 @@
         TERRAIN
         9 - raise/lower to reshape and make it distinctly different from original
         modifications: 
-
+            First I flattened the obstacle course, hidding the water hazard from view.
+            Through the use of the Hexagon shaped brush and a combination fo the Stamp Terrain and Set Height controls I completely reshaped the map.
+                -Made hexagon shaped lakes of varying sizes and depths for the player to fall into.
+                -Reshaped the mountains that block the player from leaving the world into tall, sheer cliffs roughly hexagon shaped.
+                -Made hexagon shaped cliffs between the lakes to act as obstacles.
+                -Made 2 hexagon mountain jumping courses to place the variant finish zones at the end.
         10 - paint with at least 2 new textures to replace all the textures used in the book
         (add source url or package name)
         texture 1 source: 

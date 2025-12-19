@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.2528302, g: 0.2528302, b: 0.2528302, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.11
+  m_FogDensity: 0.06
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -189,8 +189,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81310370}
-  m_LocalRotation: {x: -0.075622834, y: 0.7392586, z: 0.08418828, w: 0.6638451}
-  m_LocalPosition: {x: 161.64578, y: 25.750942, z: 124.68853}
+  m_LocalRotation: {x: -0.007200942, y: 0.9926761, z: 0.0925945, w: 0.07725635}
+  m_LocalPosition: {x: 25.116354, y: 23.698746, z: 46.711338}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -485,11 +485,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RunSpeed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_WalkSpeed
-      value: 20
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_SlopeLimit
@@ -802,8 +802,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005513103}
-  m_LocalRotation: {x: -0.025707535, y: 0.9286319, z: 0.3642576, w: 0.065562375}
-  m_LocalPosition: {x: 24.499062, y: 23.03933, z: 45.35112}
+  m_LocalRotation: {x: 0.09813585, y: 0.8985448, z: 0.34592417, w: -0.25164092}
+  m_LocalPosition: {x: 116.074776, y: -24.924393, z: 175.89398}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

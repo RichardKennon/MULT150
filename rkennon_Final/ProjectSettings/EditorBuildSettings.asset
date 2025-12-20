@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 91cbae5c774a81845b4fa5805994ab77
+  - enabled: 1
+    path: Assets/Scenes/rkennon_Final.unity
+    guid: 947f00a63c69fd84cba925e7f96f16d1
   m_configObjects: {}

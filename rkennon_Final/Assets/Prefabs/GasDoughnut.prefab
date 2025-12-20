@@ -36388,6 +36388,7 @@ GameObject:
   - component: {fileID: 7729865420568308872}
   - component: {fileID: 8437812624177235978}
   - component: {fileID: 4685886447426426694}
+  - component: {fileID: 1430241163180947207}
   m_Layer: 0
   m_Name: GasDoughnut
   m_TagString: Untagged
@@ -36608,6 +36609,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1430241163180947207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6655846749274106107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b6ffb5b4b5e8749aa19e1709e3da19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6665453079699156776
 GameObject:
   m_ObjectHideFlags: 0
